@@ -4,4 +4,5 @@ from django.shortcuts import render
 from django.http import HttpRequest
 
 def first(request):
-    return HttpRequest("hihhhhhhhhh")
+    # return HttpRequest("hihhhhhhhhh")
+    return render(request,)
